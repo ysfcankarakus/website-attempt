@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BCY Software | Job Application</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		form {
+			background-color: #fff;
+			padding: 20px;
+			margin: 50px auto;
+			max-width: 600px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		h1, h2 {
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			color: #555;
+		}
+		input[type="text"], input[type="email"], input[type="tel"], textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #f2f2f2;
+			font-size: 16px;
+			color: #555;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		label {
+			font-weight: bold;
+			color: #555;
+			display: block;
+			margin-bottom: 5px;
+		}
+		.message {
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<h1>Job Application Form</h1>
+		<h2>Please fill out the following information:</h2>
+		<div class="message">
+			<p>We will contact you at the email address you provide to schedule a job interview if you pass the quiz successfully. Please provide us with your correct information.</p>
+		</div>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

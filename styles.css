@@ -1,0 +1,118 @@
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #666;
+}
+
+nav a:hover {
+	background-color: #999;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin: 10px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.button:hover {
+	background-color: #666;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.job {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .job-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .job-title h3 {
+	margin: 0;
+  }
+  
+  .job-info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .job-apply {
+	text-align: right;
+  }
+  
+  .job-apply a {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+  }
+  
